@@ -1,7 +1,7 @@
 # Thomas the Chatbot Website
 A fun chatbot website 
 
-![Imgur](https://i.imgur.com/wHpGfnz.png)
+![Imgur](https://i.imgur.com/kZR1Jsz.gif)
 
 
 ## Installation
