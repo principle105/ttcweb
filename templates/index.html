@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Thomas the Chatbot</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="A fun chatbot" />
+	<meta name="keywords" content="Chatbot" />
+	<meta name="theme-color" content="#ee9f00">
+	<meta property="og:title" content="Thomas the Chatbot" />
+	<meta property="og:description" content="A fun chatbot" />
+	<meta property="og:url" content="https://thomasthechatbot.tk" />
+	<meta property="og:image" content="{{ url_for("static", filename="logo.png") }}" />
+	<meta property="og:image:width" content="64" />
+	<meta property="og:image:height" content="64" />
+  <link rel="icon" href="{{ url_for("static", filename="logo.png") }}"> 
+  
+  <link rel="stylesheet" href="{{ url_for("static", filename="styles/style.css") }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <section class="m">
+    <header class="m-header">
+      <h1>Thomas the Chatbot</h1>
+      <p id="total-amount">N/A messages sent in total</p>
+    </header>
+
+    <main class="m-chat"></main>
+
+    <form class="m-inputarea">
+      <input type="text" class="m-input" id="textInput" placeholder="Enter your message...">
+      <button type="submit" class="m-send-button" id="send-button">Send</button>
+    </form>
+  </section>
+  <script type="text/javascript" src="{{ url_for("static", filename = "script.js") }}"></script>
+
+</body>
+
+</html>
